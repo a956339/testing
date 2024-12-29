@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainCointainer_dasboard{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../Images/dashboard_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.Main_dasboard{
+    height: 90vh;
+    width: 75%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.navbar {
+    padding: 10px 30px 10px 30px;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.dash {
+    color: #FF6867;
+}
+
+.searchBar {
+    position: relative;
+}
+
+#Search {
+    padding: 10px;
+    width: 35vw;
+    border-radius: 8px;
+    border: none;
+    outline: red;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.search_icon {
+    position: absolute;
+    right: 0;
+    top: 1px;
+    background-color: #FF6867;
+    padding:9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px 0px 10px;
+}
+
+
+.Navnotifications {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.notifications {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.bell{
+    padding: 8px;
+    background-color: #FF6867;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
